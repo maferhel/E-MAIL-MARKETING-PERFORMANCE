@@ -1,1 +1,46 @@
-# E-MAIL-MARKETING-PERFORMANCE
+# E-MAIL-MARKETING PERFORMANCE
+
+
+El objetivo de este desafío fue analizar el rendimiento de la campaña de correo electrónico de una plataforma de contenido para creadores y lectores de bricolaje, con el objetivo de comprender qué tan bien sus campañas recientes han logrado atraer a la audiencia e impulsar conversiones en los últimos tres meses; plataforma que ofrece suscripciones pagas, lanza nuevas funciones de manera continua y organiza eventos en línea regulares para mantener a su comunidad activa y comprometida.
+
+Para medir la efectividad de las campañas de correo electrónico de la plataforma evalué métricas clave como la tasa de clics, la tasa de rebote, la tasa de apertura, la tasa de cancelación de suscripción y la tasa de conversión, las que me permitieron identificar tendencias, reconocer campañas de alto rendimiento, descubrir áreas de mejora y obtener insights a nivel regional.
+
+📊 Modelo de Datos.
+
+
+
+
+
+📱 Medidas Calculadas.
+
+・ % Clicks sobre emails abiertos: calcula el porcentaje de clics sobre los emails que fueron abiertos.
+・ Campañas Activas: cuenta el número de campañas con emails enviados.
+・ Correos Enviados por Día: cuenta el número de correos enviados por día.
+・ Jerarquía de campañas: calcula una medida compuesta basada en la tasa de clics y el volumen de correos recibidos.
+・ Máxima Tasa de Cancelación por Correo: obtiene la tasa máxima de cancelación por campaña.
+・ Prom. de Apertura, Cancelación, Clicks, Conversión y Rebote: calculan el promedio de la tasa de apertura, cancelación, clicks, conversión y rebote.
+・Tasa de Apertura, Cancelación, Clicks, Conversión y Rebote: calculan la tasa de apertura, cancelación, clicks, conversión y rebote como un porcentaje.
+・ Total Mails Enviados por Campaña: Suma los emails enviados por campaña.
+・ Volumen de Mails Recibidos: calcula el volumen de emails recibidos restando los rebotados.
+・Dominio con Mayor Tasa de Apertura, Cancelación, Clicks, Conversión y Rebote: encuentran el dominio con la mayor tasa de apertura, cancelación, clicks, conversión y rebote.
+
+
+🔍 Estructura del dashboard:
+
+💠 Información General: en la que se encontrará una visión global de las métricas clave relacionadas con las campañas, incluyendo tasas de apertura, clics y conversiones. Esta vista permite obtener una comprensión rápida del rendimiento general de los esfuerzos de email marketing.
+
+💠Campañas: se enfoca en el análisis detallado de cada campaña, mostrando el rendimiento por segmento y el impacto de cada envío. Podrá evaluar indicadores como la tasa de conversión por tipo de contenido y el comportamiento de los usuarios en función de cada campaña específica.
+
+💠Clientes: presenta un análisis centrado en los destinatarios de sus campañas, con información sobre el perfil de los clientes, segmentación y comportamiento de apertura y clics, lo que contribuye a identificar los segmentos de mayor valor y personalizar aún más sus estrategias de comunicación
+
+🛠️ Herramientas y Técnicas Utilizadas
+
+Power BI: Para la creación de las visualizaciones y el desarrollo del modelo de datos.
+Medidas DAX: Desarrollo de fórmulas DAX para crear métricas personalizadas.
+Modelo Estrella: Diseño eficiente de relaciones entre las tablas para optimizar las consultas y análisis.
+ZoomCharts: Visualizaciones interactivas para facilitar la exploración de datos.
+
+🟰 Resultados y Conclusiones
+
+📈 Los miércoles son los días de mayor interacción con los correos, un dato útil para planificar envíos y mejorar el engagement.
+📈 La mayoría de las cancelaciones de suscripción ocurren en dispositivos móviles y desktops, lo que sugiere la necesidad de optimizar la experiencia en ambos.
